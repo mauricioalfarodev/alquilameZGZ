@@ -70,3 +70,31 @@ body{
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption{
     background: rgba(0, 0, 0, .4)
 }
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px; /* Esta línea ofrece compatibilidad para IE6 y puede eliminarse */
+	position: relative;
+}
+.video-responsive iframe {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#mainNav{
+  background-color: #dc3545;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+.navbar {
+  --bs-navbar-toggler-border-color: rgb(255 255 255 / 20%);
+  --bs-navbar-color: rgb(255 255 255 / 50%);
+  --bs-navbar-toggler-icon-bg:
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
